@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import {FormsModule} from "@angular/forms";
-import { CurrencyPipe } from './currency.pipe';
+import { CurrencyPipe } from './pipe/currency.pipe';
 import { CreateHouseComponent } from './component/create-house/create-house.component';
 import { LoginComponent } from './component/login/login.component';
 import { RegisterComponent } from './component/register/register.component';
